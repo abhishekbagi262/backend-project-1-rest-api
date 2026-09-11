@@ -1,5 +1,3 @@
-Welcome to Backend Project 1
-
 # Backend Project 1 – REST API Fundamentals
 
 ## 📌 Project Overview
@@ -18,6 +16,10 @@ The purpose of this project is to understand REST API fundamentals, including HT
 
 ## 🚀 API Endpoints
 
+### GET `/`
+
+Returns a welcome message from the API.
+
 ### GET `/hello`
 
 Returns a simple success message.
@@ -26,15 +28,17 @@ Returns a simple success message.
 
 Accepts user details in JSON format and returns the submitted data.
 
-Required fields:
+**Required fields:**
 - `name`
 - `course`
 
 If required fields are missing, the API returns a `400 Bad Request` response.
 
-## ▶️ How to Run
+## 🧪 API Testing
 
-1. Install Flask:
+### GET `/`
 
-```bash
-pip install flask
+**Request:**
+
+```text
+GET http://127.0.0.1:5000/
