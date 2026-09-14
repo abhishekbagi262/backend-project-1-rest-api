@@ -14,7 +14,7 @@ The purpose of this project is to understand REST API fundamentals, including HT
 - JSON
 - HTTP
 
-## 🚀 API Endpoints
+##  API Endpoints
 
 ### GET `/`
 
